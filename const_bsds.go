@@ -11,8 +11,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build aix || darwin || openbsd || freebsd || netbsd || dragonfly || zos || wasip1
-// +build aix darwin openbsd freebsd netbsd dragonfly zos wasip1
+//go:build aix || darwin || openbsd || freebsd || netbsd || dragonfly || zos || wasip1 || haiku
+// +build aix darwin openbsd freebsd netbsd dragonfly zos wasip1 haiku
 
 package afero
 
